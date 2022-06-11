@@ -54,6 +54,22 @@ namespace TestEjercicioPruebasUnitarias
         [TestMethod]
         public void TestEjercicioPrueba6()
         {
+            int valor = EjercicioPruebas.Program.serieFibonacci(12);
+            Assert.AreEqual(144, valor);
+
+        }
+
+        [TestMethod]
+        public void TestEjercicioPrueba7()
+        {
+            int valor = EjercicioPruebas.Program.serieFibonacci(70);
+            Assert.AreEqual(885444751, valor);
+
+        }
+
+        [TestMethod]
+        public void TestEjercicioPrueba8()
+        {
             int valor = EjercicioPruebas.Program.serieFibonacci(15);
             Assert.AreEqual(610, valor);
 
