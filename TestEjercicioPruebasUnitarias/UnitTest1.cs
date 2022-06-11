@@ -6,8 +6,8 @@ namespace TestEjercicioPruebasUnitarias
         [TestMethod]
         public void TestEjercicioPrueba()
         {
-            int valor = EjercicioPruebas.Program.serieFibonacci(0);
-            Assert.AreEqual(0, valor);
+            int valor = EjercicioPruebas.Program.serieFibonacci(1);
+            Assert.AreEqual(1, valor);
 
         }
     }
