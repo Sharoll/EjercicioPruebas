@@ -10,7 +10,7 @@ namespace EjercicioPruebas
     {
         static void Main(string[] args)
         {
-            serieFibonacci(10);
+            serieFibonacci(15);
         }
 
         public static int serieFibonacci(int valor)
@@ -23,7 +23,9 @@ namespace EjercicioPruebas
                int auxiliar = a;
                 a = b;
                 b = auxiliar + a;
+                
             }
+
             return a;
           
 
